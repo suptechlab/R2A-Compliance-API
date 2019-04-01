@@ -1,0 +1,1 @@
+﻿ALTER TABLE bsp.Bank ADD EmailAddress nvarchar(90) NULL

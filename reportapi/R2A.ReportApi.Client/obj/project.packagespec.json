@@ -1,0 +1,91 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Client/R2A.ReportApi.Client.csproj",
+    "projectName": "R2A.ReportApi.Client",
+    "projectPath": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Client/R2A.ReportApi.Client.csproj",
+    "outputPath": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Client/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/R2A.ReportApi.Models.csproj": {
+            "projectPath": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/R2A.ReportApi.Models.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[1.50.4, )"
+        },
+        "MediatR": {
+          "target": "Package",
+          "version": "[4.1.0, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.6, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "NLog.Web.AspNetCore": {
+          "target": "Package",
+          "version": "[4.5.1, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[11.0.2, )"
+        },
+        "RabbitMQ.Client": {
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "ServiceStack.Text": {
+          "target": "Package",
+          "version": "[5.0.2, )"
+        },
+        "SimpleInjector.Integration.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "[4.1.1, )"
+        },
+        "SimpleInjector.Integration.AspNetCore.Mvc.Core": {
+          "target": "Package",
+          "version": "[4.1.1, )"
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.5.0-preview3-26328-06, )"
+        },
+        "System.Memory": {
+          "target": "Package",
+          "version": "[4.5.0-preview3-26416-06, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

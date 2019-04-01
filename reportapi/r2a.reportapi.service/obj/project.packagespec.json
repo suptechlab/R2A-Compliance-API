@@ -1,0 +1,99 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Service/R2A.ReportApi.Service.csproj",
+    "projectName": "R2A.ReportApi.Service",
+    "projectPath": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Service/R2A.ReportApi.Service.csproj",
+    "outputPath": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Service/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net461"
+    ],
+    "frameworks": {
+      "net461": {
+        "projectReferences": {
+          "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/R2A.ReportApi.Models.csproj": {
+            "projectPath": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/R2A.ReportApi.Models.csproj"
+          },
+          "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.PdfGenerator/R2A.ReportApi.PdfGenerator.csproj": {
+            "projectPath": "/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.PdfGenerator/R2A.ReportApi.PdfGenerator.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net461": {
+      "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[1.50.4, )"
+        },
+        "MediatR": {
+          "target": "Package",
+          "version": "[4.1.0, )"
+        },
+        "Microsoft.Extensions.Configuration": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.Extensions.Configuration.Binder": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.Extensions.Configuration.FileExtensions": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "[2.0.1, )"
+        },
+        "NLog": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[11.0.2, )"
+        },
+        "Pinecone.SqlCommandExtensions": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "RabbitMQ.Client": {
+          "target": "Package",
+          "version": "[5.0.1, )"
+        },
+        "SimpleInjector": {
+          "target": "Package",
+          "version": "[4.1.0, )"
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.4.3, )"
+        },
+        "Topshelf": {
+          "target": "Package",
+          "version": "[4.0.3, )"
+        },
+        "Topshelf.NLog": {
+          "target": "Package",
+          "version": "[4.0.3, )"
+        },
+        "Topshelf.SimpleInjector": {
+          "target": "Package",
+          "version": "[1.0.0.20, )"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Util\**" />
+    <EmbeddedResource Remove="Util\**" />
+    <None Remove="Util\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="bsp-logo.png" />
+    <None Remove="nlog.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="external dependecies\" />
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bsp-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
+    <PackageReference Include="MediatR" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="NLog" Version="4.5.0" />
+    <PackageReference Include="Pinecone.SqlCommandExtensions" Version="1.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
+    <PackageReference Include="SimpleInjector" Version="4.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.3" />
+    <PackageReference Include="Topshelf" Version="4.0.3" />
+    <PackageReference Include="Topshelf.NLog" Version="4.0.3" />
+    <PackageReference Include="Topshelf.SimpleInjector" Version="1.0.0.20" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\R2A.ReportApi.Models\R2A.ReportApi.Models.csproj" />
+    <ProjectReference Include="..\R2A.ReportApi.PdfGenerator\R2A.ReportApi.PdfGenerator.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BSP.ReportDataConverter.Implementations">
+      <HintPath>..\..\ReportMonitoring\BSP.ReportDataConverter.Implementations\bin\Release\netstandard2.0\BSP.ReportDataConverter.Implementations.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportDataConverter">
+      <HintPath>external dependecies\ReportDataConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportFormula">
+      <HintPath>external dependecies\ReportFormula.dll</HintPath>
+    </Reference>
+    <Reference Include="SendMailUtilities">
+      <HintPath>..\..\ReportMonitoring\SendMailUtilities\bin\Release\SendMailUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+</Project>

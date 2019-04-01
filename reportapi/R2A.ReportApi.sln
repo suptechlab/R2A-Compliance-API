@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2A.ReportApi.Client", "R2A.ReportApi.Client\R2A.ReportApi.Client.csproj", "{67757AF1-8BB6-48E5-9273-855767C85241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2A.ReportApi.Service", "R2A.ReportApi.Service\R2A.ReportApi.Service.csproj", "{D43DDAF2-3933-45FF-AED5-2FC0B26944D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R2A.ReportApi.Models", "R2A.ReportApi.Models\R2A.ReportApi.Models.csproj", "{D1CDEFFE-C60B-4E70-8DF9-3E6781D3B545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2A.ReportApi.Test461", "R2A.ReportApi.Test461\R2A.ReportApi.Test461.csproj", "{692106F5-D250-4F1B-A89B-E39811553208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2A.ReportApi.PdfGenerator", "R2A.ReportApi.PdfGenerator\R2A.ReportApi.PdfGenerator.csproj", "{6D4656D5-1B32-4A69-B260-7827CE99BD00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67757AF1-8BB6-48E5-9273-855767C85241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67757AF1-8BB6-48E5-9273-855767C85241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67757AF1-8BB6-48E5-9273-855767C85241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67757AF1-8BB6-48E5-9273-855767C85241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43DDAF2-3933-45FF-AED5-2FC0B26944D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43DDAF2-3933-45FF-AED5-2FC0B26944D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43DDAF2-3933-45FF-AED5-2FC0B26944D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43DDAF2-3933-45FF-AED5-2FC0B26944D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CDEFFE-C60B-4E70-8DF9-3E6781D3B545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CDEFFE-C60B-4E70-8DF9-3E6781D3B545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CDEFFE-C60B-4E70-8DF9-3E6781D3B545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CDEFFE-C60B-4E70-8DF9-3E6781D3B545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692106F5-D250-4F1B-A89B-E39811553208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692106F5-D250-4F1B-A89B-E39811553208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692106F5-D250-4F1B-A89B-E39811553208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692106F5-D250-4F1B-A89B-E39811553208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4656D5-1B32-4A69-B260-7827CE99BD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4656D5-1B32-4A69-B260-7827CE99BD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4656D5-1B32-4A69-B260-7827CE99BD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4656D5-1B32-4A69-B260-7827CE99BD00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9BDE016-8F25-4EDF-9C3A-4DF24E49637E}
+	EndGlobalSection
+EndGlobal

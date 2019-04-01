@@ -1,0 +1,8 @@
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/bin/Debug/netstandard2.0/R2A.ReportApi.Models.deps.json
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/bin/Debug/netstandard2.0/R2A.ReportApi.Models.dll
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/bin/Debug/netstandard2.0/R2A.ReportApi.Models.pdb
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/obj/Debug/netstandard2.0/R2A.ReportApi.Models.csproj.CoreCompileInputs.cache
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/obj/Debug/netstandard2.0/R2A.ReportApi.Models.AssemblyInfoInputs.cache
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/obj/Debug/netstandard2.0/R2A.ReportApi.Models.AssemblyInfo.cs
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/obj/Debug/netstandard2.0/R2A.ReportApi.Models.dll
+/Users/janicic/Workspace/RiderProjects/R2A/ReportApi/R2A.ReportApi.Models/obj/Debug/netstandard2.0/R2A.ReportApi.Models.pdb
